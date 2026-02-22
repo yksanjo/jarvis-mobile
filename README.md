@@ -1,60 +1,84 @@
-# Jarvis Mobile - Personal AI Assistant on the Go
+# jarvis-mobile
 
-A mobile companion app for Jarvis AI assistant. Manage tasks, events, and chat with your AI assistant from anywhere.
+## Detailed Description
 
-## Features
+jarvis-mobile is maintained as an industry-grade software project with production-ready engineering practices.  
+This repository includes documented setup, quality gates, operational guidance, and governance standards so contributors can safely build, test, and ship changes with confidence.
 
-- 📱 **Mobile-First** - Access Jarvis from your phone
-- ✅ **Task Management** - Create and track tasks on the go
-- 📅 **Calendar** - Quick event creation
-- 💬 **AI Chat** - Chat with Jarvis anywhere
-- 🔒 **Privacy First** - All data stored locally
-- 🔄 **Sync Ready** - Can sync with desktop app
+## Problem Statement
 
-## Installation
+Describe the user or business problem this project solves, the target users, and expected outcomes.
+
+## Solution Overview
+
+Summarize the architecture, core modules, and runtime behavior at a high level.
+
+## Key Features
+
+- Clear project scope and intended use.
+- Reproducible local development workflow.
+- Test coverage and CI quality gates.
+- Security and contribution policies.
+- Deployment-ready repository structure.
+
+## Repository Structure
+
+```text
+.
+|-- src/                  # Core implementation
+|-- tests/                # Automated test suites
+|-- docs/                 # Design notes and operational docs
+|-- .github/workflows/    # CI pipelines
+|-- README.md
+|-- LICENSE
+|-- CONTRIBUTING.md
+|-- SECURITY.md
+|-- CODE_OF_CONDUCT.md
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Git
+- Project runtime/toolchain for this repo
+
+### Local Setup
 
 ```bash
-# Install dependencies
-npm install
-
-# Run on iOS
-npm run ios
-
-# Run on Android
-npm run android
-
-# Run on web
-npm run web
+npm ci
+npm run lint
+npm test
+npm run build
 ```
 
-## Project Structure
+## Usage
 
-```
-jarvis-mobile/
-├── src/
-│   ├── components/     # Reusable components
-│   ├── screens/        # App screens
-│   ├── services/       # API and data services
-│   ├── store/          # State management
-│   └── utils/         # Utility functions
-├── App.tsx            # Main app component
-└── package.json       # Dependencies
-```
+Document primary commands, API routes, CLI examples, or UI workflows here.
 
-## Screens
+## Quality Standards
 
-1. **Home** - Quick stats and recent activity
-2. **Tasks** - Task list and management
-3. **Calendar** - Event viewing and creation
-4. **Chat** - AI conversation interface
-5. **Settings** - App configuration
+- CI must pass before merge.
+- Changes require tests for critical behavior.
+- Security-sensitive changes should include risk notes.
+- Keep pull requests focused and reviewable.
 
-## Requirements
+## Security
 
-- Node.js 18+
-- React Native
-- Expo (recommended)
+See `SECURITY.md` for responsible disclosure and handling guidelines.
+
+## Contributing
+
+See `CONTRIBUTING.md` for branching, commit, and pull request expectations.
+
+## Roadmap
+
+Track upcoming milestones, technical debt, and planned feature work.
+
+## Support
+
+Open a GitHub issue for bugs, feature requests, or documentation gaps.
 
 ## License
 
-MIT
+This project is released under the MIT License.
