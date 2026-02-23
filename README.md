@@ -1,5 +1,12 @@
 # jarvis-mobile
 
+Production-grade project scaffold focused on reliability, maintainability, and fast onboarding.
+
+[![CI](https://img.shields.io/github/actions/workflow/status/yksanjo/jarvis-mobile/ci.yml?branch=main&label=ci)](https://github.com/yksanjo/jarvis-mobile/actions)
+![License](https://img.shields.io/github/license/yksanjo/jarvis-mobile)
+![Last Commit](https://img.shields.io/github/last-commit/yksanjo/jarvis-mobile)
+![Repo Size](https://img.shields.io/github/repo-size/yksanjo/jarvis-mobile)
+
 ## Detailed Description
 
 jarvis-mobile is maintained as an industry-grade software project with production-ready engineering practices.  
